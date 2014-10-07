@@ -5,3 +5,53 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
+
+header,section, footer {
+	padding: 2em;
+}
+
+header {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+header a:link,
+header a:visited {
+	margin-left: -1em;
+	color: #EED234;
+	text-decoration: none;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+}
+
+header a:hover,
+header a:focus {
+	background-color: #EE0000;
+}
+
+#about {
+	background-color: #F2B82D;
+	overflow: auto;
+}
+
+#projects {
+	background-color: #B2B82D;
+}
+
+#about img {
+	max-height:400px;
+	float: left;
+	margin-right: 1em;
+}
+
+#about img:hover {
+	opacity:0.7;
+}
+
+#education {
+	clear: both;
+}
+
